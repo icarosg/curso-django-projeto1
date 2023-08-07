@@ -9,8 +9,3 @@ def my_view(request):
         'name': 'Ícaro Gonçalves'
     })
 
-def contats(request):
-    return render(request, 'recipes/contato.html')
-
-def about(request):
-    return HttpResponse('Sobre')
