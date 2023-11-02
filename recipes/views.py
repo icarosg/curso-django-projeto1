@@ -9,3 +9,7 @@ def my_view(request):
         'name': 'Ícaro Gonçalves'
     })
 
+def recipe(request, id):
+    return render(request, 'recipes/pages/recipe-view.html', context={
+        'name': 'Ícaro Gonçalves'
+    })
