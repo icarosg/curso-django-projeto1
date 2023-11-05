@@ -126,6 +126,11 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 2rem;
 }
 
+.recipe-tittle-container a {
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+}
+
 .recipe-author {
     padding: 0 3rem;
 }
@@ -191,6 +196,10 @@ h1, h2, h3, h4, h5, h6 {
 .main-content-detail .recipe-list-item:hover {
     transform: scale(1);
     box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.preparation-steps {
+    padding: 3rem;
 }
 
 .main-footer {
